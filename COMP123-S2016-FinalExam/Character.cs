@@ -5,6 +5,7 @@ using System.Text;
 
 namespace COMP123_M2020_FinalExam
 {
+    //properties for first and last name added
     public class Character
     {
         public string Strength { get; set; }

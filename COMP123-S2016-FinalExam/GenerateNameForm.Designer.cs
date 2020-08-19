@@ -60,6 +60,7 @@
             this.NameListGroupBox.TabIndex = 0;
             this.NameListGroupBox.TabStop = false;
             this.NameListGroupBox.Text = "Name Lists";
+            this.NameListGroupBox.Enter += new System.EventHandler(this.NameListGroupBox_Enter);
             // 
             // GenerateButton
             // 

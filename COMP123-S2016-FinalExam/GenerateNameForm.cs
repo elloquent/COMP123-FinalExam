@@ -10,6 +10,10 @@ using System.Windows.Forms;
 
 namespace COMP123_M2020_FinalExam
 {
+    // Author Name Richard Elridge
+    // Student number 301107264
+    // modify 20/08/2020
+    // This program is use to interact with different windows form
     public partial class GenerateNameForm : Form
     {
         public GenerateNameForm()
@@ -21,7 +25,7 @@ namespace COMP123_M2020_FinalExam
         {
             this.generatenames();
         }
-
+        //method to randomly select a name from a list box and display it in a textbox
         public void generatenames()
         {
 
@@ -35,7 +39,7 @@ namespace COMP123_M2020_FinalExam
             firstnametextBox.Text = FirstNameListBox.Items[inde].ToString();
             Program.character.Firstname = FirstNameListBox.Items[inde].ToString();
         }
-
+        //this method call the generatname method and assign the value store in the properties to the relevant textboes
         private void GenerateButton_Click(object sender, EventArgs e)
         {
             this.generatenames();
@@ -48,6 +52,11 @@ namespace COMP123_M2020_FinalExam
             AbilityGeneratorForm abil = new AbilityGeneratorForm();
             abil.Show();
             this.Hide();
+        }
+
+        private void NameListGroupBox_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

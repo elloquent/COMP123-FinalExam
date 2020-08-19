@@ -41,7 +41,8 @@ namespace COMP123_M2020_FinalExam
 
             this._selectedRace = selectedRace.Text;
         }
-
+        //object of the character form added
+        //assigning value to the race property
         private void NextButton_Click(object sender, EventArgs e)
         {
             Character character = Program.character;

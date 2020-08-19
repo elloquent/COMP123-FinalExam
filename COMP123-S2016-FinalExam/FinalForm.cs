@@ -10,6 +10,10 @@ using System.Windows.Forms;
 
 namespace COMP123_M2020_FinalExam
 {
+    // Author Name Richard Elridge
+    // Student number 301107264
+    // modify 20/08/2020
+    // This program is use to interact with different windows form
     public partial class FinalForm : Form
     {
         public RaceAndClassForm previousForm { get; set; }
@@ -38,7 +42,7 @@ namespace COMP123_M2020_FinalExam
         {
             Application.Exit();
         }
-
+        // populating the textboxes when the form loads
         private void FinalForm_Load(object sender, EventArgs e)
         {
             Character character = Program.character;
