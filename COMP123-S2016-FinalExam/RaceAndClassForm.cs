@@ -34,7 +34,7 @@ namespace COMP123_M2020_FinalExam
             // Step 2 - close this form
             this.Close();
         }
-
+        //assigning the value of the radio button that is checked
         private void RaceRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton selectedRace = (RadioButton)sender;
